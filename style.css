@@ -44,7 +44,7 @@ body{
     flex-direction: row;
     gap: 15px;
     position: relative;
-    top:-15px;
+    top:-10px;
 }
 
 #paratext{
