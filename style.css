@@ -25,13 +25,13 @@ body{
 }
 
 #backtotext{
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 900;
     font-family: 'Fredoka One', cursive;
 }
 
 #schooltext{
-    font-size: 135px;
+    font-size: 130px;
     font-weight: bolder;
     color: purple;
     font-family: 'Fredoka One', cursive;
@@ -48,7 +48,7 @@ body{
 }
 
 #paratext{
-    font-size: 25px;
+    font-size: 22px;
     width: 35vw;
     text-align: justify;
     line-height: 1.8;
