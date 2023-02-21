@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.illustration-img{
+    height: 100vh;
+    width: 50vw;
+    background-image: url("images/Illustration.png"), url("images/design2.png");
+    background-size: cover;
+}
+
+#flex-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#backtotext{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Fredoka One', cursive;
+}
+
+#schooltext{
+    font-size: 150px;
+    font-weight: bolder;
+    color: purple;
+    font-family: 'Fredoka One', cursive;
+}
+
+#flex-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#paratext{
+    font-size: 25px;
+    width: 35vw;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn{
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(252, 87, 115);
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    position: relative;
+    top: -30px;
+}
+
+.youraccount{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 5px;
+}
+
+#bottom-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
