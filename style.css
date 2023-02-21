@@ -35,12 +35,16 @@ body{
     font-weight: bolder;
     color: purple;
     font-family: 'Fredoka One', cursive;
+    position: relative;
+    top:-20px;
 }
 
 #flex-icons{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    position: relative;
+    top:-10px;
 }
 
 #paratext{
@@ -49,6 +53,8 @@ body{
     text-align: justify;
     line-height: 1.8;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top:-15px;
 }
 
 #btn{
